@@ -44,7 +44,7 @@ int main() {
 }
 ```
 ### tips:
-1. The single instance is a private static attribute. The accessor function is a public static method. Why?
+1. The single instance is a private static attribute. The accessor function is a public static method. Why static function member must use static data member in it?
     1. because you access the public static method without a object, if in this static method, you use a non-static member, this member must be called with this pointer (or a object), but static method doesn't have one.
     2. also this static variable is shared by all objects of the class, it need static
 
