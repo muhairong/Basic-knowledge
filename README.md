@@ -1,2 +1,1 @@
-# Basic-knowledge
-Basic knowledge for interview
+# Basic-knowledge 101
